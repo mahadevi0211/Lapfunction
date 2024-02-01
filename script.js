@@ -103,12 +103,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // Update colors based on the theme
         if (document.body.classList.contains('dark-mode')) {
             // Dark mode
-            background.style.backgroundColor = 'gray';
-            clock.style.backgroundColor = 'gray';
+            background.style.backgroundColor = 'rgb(33, 33, 33)';
+            clock.style.backgroundColor = 'rgb(33, 33, 33)';
             timeElement.style.color = 'white';
             themeButton.style.backgroundColor = 'white';
-            themeButton.style.color = 'gray';
-            moonIcon.style.color = 'gray';
+            themeButton.style.color = 'rgb(33, 33, 33)';
+            moonIcon.style.color = 'rgb(33, 33, 33)';
         } else {
             // Light mode
             background.style.backgroundColor = 'white';
